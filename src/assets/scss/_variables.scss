@@ -4,10 +4,10 @@
 
 @use "sass:math";
 // Colors
-$body-bg: #1C344C;
-$color-base: #F2F2F2;
-$color-primary: #91C46C;
-$color-secondary: #C6E070;
+$body-bg: linear-gradient(0deg, rgba(18, 35, 54, 1) 35%, rgba(10, 90, 94, 1) 100%);
+$color-base: #E5EEF0;
+$color-primary: #E8D917;
+$color-secondary: #E8D917;
 $color-white: #fff;
 $color-gray: lighten($color-base, 40%);
 $color-gray-border: lighten($color-base, 77%);

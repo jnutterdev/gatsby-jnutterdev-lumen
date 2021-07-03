@@ -26,7 +26,7 @@ module.exports = {
   ],
   author: {
     name: 'John Nutter',
-    photo: '/johnhead.jpg',
+    photo: '/jndev.png',
     bio: 'Full-stack developer and software engineer. Passion for chiptunes and 80s synths',
     contacts: {
       email: 'hello@jnutterdev.com',

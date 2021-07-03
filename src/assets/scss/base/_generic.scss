@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: $body-bg;
+    background: $body-bg;
     margin: 0 0 0 calc(100vw - 100%);
     font-family: $typographic-font-family;
     color: $typographic-base-font-color;
