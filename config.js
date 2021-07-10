@@ -1,10 +1,10 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://www.jnutterdev.com',
   pathPrefix: '/',
-  title: 'Blog by John Nutter',
-  subtitle: 'Full-stack developer and software engineer',
+  title: 'John Nutter',
+  subtitle: 'Software engineer',
   copyright: '©2021 All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
@@ -12,12 +12,16 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: 'Articles',
+      label: 'Posts',
       path: '/'
     },
     {
       label: 'About me',
       path: '/pages/about'
+    },
+    {
+      label: 'Projects',
+      path: '/pages/projects'
     },
     {
       label: 'Contact me',
@@ -27,9 +31,9 @@ module.exports = {
   author: {
     name: 'John Nutter',
     photo: '/jndev.png',
-    bio: 'Full-stack developer and software engineer. Passion for chiptunes and 80s synths',
+    bio: 'I\'m a Software engineer with a passion for chiptunes, pixel art, and 80s synths',
     contacts: {
-      email: 'hello@jnutterdev.com',
+      email: '',
       facebook: '',
       telegram: '',
       twitter: 'jnutterdev',
@@ -43,7 +47,7 @@ module.exports = {
       weibo: '',
       codepen: '',
       youtube: '',
-      soundcloud: '',
+      soundcloud: 'ashtephra',
       medium: '',
     }
   }
