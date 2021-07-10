@@ -1,11 +1,16 @@
 ---
-layout: post
+template: post
 title: React Music Player
 date: 2021-03-09 12:00:00 -05:00
+slug: react-music-player
+draft: true
+category: "Web-Development"
+tags:
+  - "Music"
+  - "Web Development"
+  - "React"
 description: ""
-image:
-published: false
-excerpt_separator: <!--more-->
+socialImage: 
 ---
 
 

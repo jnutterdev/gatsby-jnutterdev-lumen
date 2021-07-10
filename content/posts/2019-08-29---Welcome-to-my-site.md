@@ -1,10 +1,16 @@
 ---
-layout: post
+template: post
 title: Welcome to my site
 date: 2019-09-04 22:00:00 -05:00
-description: First ever post on my new site
-image: 
-excerpt_separator: <!--more-->
+draft: false
+slug: "welcome-to-my-site"
+category: "Web-Development"
+tags:
+  - "Design"
+  - "Typography"
+  - "Web Development"
+description: "First ever post on my new site"
+socialImage: 
 ---
 
 Hi, if you didn't know already, my name is John Nutter. I'm a back-end web developer and Linux sysadmin. I have a passion for working with Ruby on Rails and Flask.<!--more--> I'm seeking any opportunity I can to write code using it. In this first post, I'm going to go over some details on how I created this site and the tools that I used. It's not at all an exhaustive post, but just something I put together to get the ball rolling. 

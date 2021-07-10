@@ -1,14 +1,19 @@
 ---
-layout: post
+template: post
 title: DKIM signing
 date: 2020-05-27 19:28:00 -05:00
-description: ""
-image: 
-published: True
-excerpt_separator: <!--more-->
+draft: False
+slug: "dkim-signing"
+category: "DNS"
+tags:
+  - "DNS"
+  - "Hosting"
+  - "Web sites"
+description: "Recently I went down a rabbit hole that lead me to learn more about SPF, DKIM, DMARC, and BIMI. While many resources cover the benefit of setting up these records, some information is still not quite as readily available. Here's what I learned on my quest."
+socialImage: 
 ---
 
-Recently I went down a rabbit hole that lead me to learn more about SPF, DKIM, DMARC, and BIMI. While many resources cover the benefit of setting up these records, some information is still not quite as readily available. Here's what I learned on my quest. <!--more-->
+Recently I went down a rabbit hole that lead me to learn more about SPF, DKIM, DMARC, and BIMI. While many resources cover the benefit of setting up these records, some information is still not quite as readily available. Here's what I learned on my quest.
 
 One day, I looked through my inbox and noticed that some emails have an avatar displayed next to their sender name. I wondered how one goes about setting an avatar; how hard could that be? After doing a bit of searching around, I stumbled across an article on [BIMI](https://www.dmarcanalyzer.com/how-to-implement-bimi-record/), or Brand Indicators for Message Identification. The article suggested that the sending domain must have SPF, DKIM, and DMARC enabled first. I work in technical support for an email delivery company, so I have some familiarity with how SPF/DKIM works. One of the addresses I use outside of work already has a DMARC policy that I setup.  
 

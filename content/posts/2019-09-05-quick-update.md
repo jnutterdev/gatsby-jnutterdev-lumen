@@ -1,10 +1,16 @@
 ---
-layout: post
+template: post
 title: Quick update
 date: 2019-09-05 19:41:00 -05:00
-description: The circle of development life
-image: 
-excerpt_separator: <!--more-->
+draft: false
+slug: "quick-update"
+category: "Web-Development"
+tags:
+  - "Design"
+  - "Typography"
+  - "Web Development"
+description: "The circle of development life"
+socialImage: 
 ---
 
 While updating the new website, I came across an issue building the links for my website. To rewind a bit, I previously used Jekyll on version 3.3.0 or even earlier.<!--more--> Sometime between now and then, a new update rolled out that started using Bundler to bundle the gem dependencies for the project. 

@@ -7,10 +7,10 @@ slug: "books-in-space"
 category: "Web-Development"
 tags:
   - "Design"
-  - "Typography"
+  - "Database"
   - "Web Development"
 description: "Books in Space was another group effort, consisting of the same two folks  I worked with on the Drums in Space project (hence the play on the name). This project aimed to create a book library application for storing and managing books on a virtual shelf."
-socialImage: "/media/42-line-bible.jpg"
+socialImage: 
 ---
 
 Books in Space was another group effort, consisting of the same two folks  I worked with on the Drums in Space project (hence the play on the name). This project aimed to create a book library application for storing and managing books on a virtual shelf. 

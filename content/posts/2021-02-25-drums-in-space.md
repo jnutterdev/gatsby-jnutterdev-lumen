@@ -1,11 +1,16 @@
 ---
-layout: post
+template: post
 title: Drums In Space
 date: 2021-02-25 15:34:00 -05:00
-description: 
-image: "../../assets/images/drumsinspace.jpg"
 published: true
-excerpt_separator: <!--more-->
+slug: "drums-in-space"
+category: "Web-Development"
+tags:
+  - "Music"
+  - "JavaScript"
+  - "Web Development"
+description: "One of our first projects in the course was a group project where we used HTML, CSS, Bootstrap, p5 library, Tone.js, and vanilla JavaScript to create a functional website. My group consisted of two other folks and myself. Since we all enjoyed music, we decided to develop an interactive drum machine with a space theme. What we created is called Drums in space."
+socialImage:
 ---
 
 One of our first projects in the course was a group project where we used HTML, CSS, [Bootstrap](https://getbootstrap.com/), [p5 library](https://p5js.org/libraries/), [Tone.js](https://tonejs.github.io/), and vanilla JavaScript to create a functional website. My group consisted of two other folks and myself. Since we all enjoyed music, we decided to develop an<!--more--> interactive drum machine with a space theme. What we created is called [Drums in space](https://github.com/jnutterdev/drums-in-space).

@@ -1,10 +1,16 @@
 ---
-layout: post
+template: post
 title: Ghost pages
 date: 2019-09-10 11:13:00 -05:00
+draft: false
+slug: "ghost-pages"
+category: "Web-Development"
+tags:
+  - "Design"
+  - "Typography"
+  - "Web Development"
 description: "The updates I'm going to be sharing lately will mostly be for the projects I'm working on."
-image: 
-excerpt_separator: <!--more-->
+socialImage:
 ---
 
 The updates I'm going to be sharing will mostly be for the projects I'm working on. In this case, it will just be the current website and the [Nutter Home Designs](https://www.nutterhomedesigns.com) website. Sometime soon, I'm going to be working on<!--more--> some Ruby on rails apps so I'll share those as I'm working through them. 

@@ -1,11 +1,16 @@
 ---
-layout: post
+template: post
 title: Scene It
 date: 2021-03-09 12:00:00 -05:00
+draft: true
+slug: "scene-it"
+category: "Web-Development"
+tags:
+  - "Design"
+  - "Typography"
+  - "Web Development"
 description: ""
-image:
-published: false
-excerpt_separator: <!--more-->
+socialImage:
 ---
 
 
