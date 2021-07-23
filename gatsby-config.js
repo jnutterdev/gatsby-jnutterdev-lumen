@@ -1,5 +1,9 @@
 'use strict';
 
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 const siteConfig = require('./config.js');
 const postCssPlugins = require('./postcss-config.js');
 
@@ -41,6 +45,13 @@ module.exports = {
       options: {
         name: 'css',
         path: `${__dirname}/static/css`
+      }
+    },
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: `your_space_id`,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       }
     },
     {
